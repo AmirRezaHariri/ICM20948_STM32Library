@@ -1,0 +1,85 @@
+ICM_20948.cpp:15:1:ICM_20948::ICM_20948()	16	static
+ICM_20948.cpp:143:18:ICM_20948_AGMT_t ICM_20948::getAGMT()	24	static
+ICM_20948.cpp:150:7:float ICM_20948::magX()	16	static
+ICM_20948.cpp:155:7:float ICM_20948::magY()	16	static
+ICM_20948.cpp:160:7:float ICM_20948::magZ()	16	static
+ICM_20948.cpp:165:7:float ICM_20948::getMagUT(int16_t)	16	static
+ICM_20948.cpp:170:7:float ICM_20948::accX()	16	static
+ICM_20948.cpp:175:7:float ICM_20948::accY()	16	static
+ICM_20948.cpp:180:7:float ICM_20948::accZ()	16	static
+ICM_20948.cpp:185:7:float ICM_20948::getAccMG(int16_t)	16	static
+ICM_20948.cpp:207:7:float ICM_20948::gyrX()	16	static
+ICM_20948.cpp:212:7:float ICM_20948::gyrY()	16	static
+ICM_20948.cpp:217:7:float ICM_20948::gyrZ()	16	static
+ICM_20948.cpp:222:7:float ICM_20948::getGyrDPS(int16_t)	16	static
+ICM_20948.cpp:244:7:float ICM_20948::temp()	16	static
+ICM_20948.cpp:249:7:float ICM_20948::getTempC(int16_t)	16	static
+ICM_20948.cpp:254:13:const char* ICM_20948::statusString(ICM_20948_Status_e)	24	static
+ICM_20948.cpp:324:20:ICM_20948_Status_e ICM_20948::setBank(uint8_t)	16	static
+ICM_20948.cpp:330:20:ICM_20948_Status_e ICM_20948::swReset()	16	static
+ICM_20948.cpp:336:20:ICM_20948_Status_e ICM_20948::sleep(bool)	16	static
+ICM_20948.cpp:342:20:ICM_20948_Status_e ICM_20948::lowPower(bool)	16	static
+ICM_20948.cpp:348:20:ICM_20948_Status_e ICM_20948::setClockSource(ICM_20948_PWR_MGMT_1_CLKSEL_e)	16	static
+ICM_20948.cpp:354:20:ICM_20948_Status_e ICM_20948::checkID()	16	static
+ICM_20948.cpp:366:6:bool ICM_20948::dataReady()	16	static
+ICM_20948.cpp:376:9:uint8_t ICM_20948::getWhoAmI()	24	static
+ICM_20948.cpp:383:6:bool ICM_20948::isConnected()	16	static
+ICM_20948.cpp:397:20:ICM_20948_Status_e ICM_20948::setSampleMode(uint8_t, uint8_t)	16	static
+ICM_20948.cpp:404:20:ICM_20948_Status_e ICM_20948::setFullScale(uint8_t, ICM_20948_fss_t)	16	static
+ICM_20948.cpp:410:20:ICM_20948_Status_e ICM_20948::setDLPFcfg(uint8_t, ICM_20948_dlpcfg_t)	24	static
+ICM_20948.cpp:416:20:ICM_20948_Status_e ICM_20948::enableDLPF(uint8_t, bool)	16	static
+ICM_20948.cpp:422:20:ICM_20948_Status_e ICM_20948::setSampleRate(uint8_t, ICM_20948_smplrt_t)	24	static
+ICM_20948.cpp:429:20:ICM_20948_Status_e ICM_20948::clearInterrupts()	24	static
+ICM_20948.cpp:456:20:ICM_20948_Status_e ICM_20948::cfgIntActiveLow(bool)	24	static
+ICM_20948.cpp:473:20:ICM_20948_Status_e ICM_20948::cfgIntOpenDrain(bool)	24	static
+ICM_20948.cpp:490:20:ICM_20948_Status_e ICM_20948::cfgIntLatch(bool)	24	static
+ICM_20948.cpp:507:20:ICM_20948_Status_e ICM_20948::cfgIntAnyReadToClear(bool)	24	static
+ICM_20948.cpp:524:20:ICM_20948_Status_e ICM_20948::cfgFsyncActiveLow(bool)	24	static
+ICM_20948.cpp:541:20:ICM_20948_Status_e ICM_20948::cfgFsyncIntMode(bool)	24	static
+ICM_20948.cpp:559:20:ICM_20948_Status_e ICM_20948::intEnableI2C(bool)	24	static
+ICM_20948.cpp:581:20:ICM_20948_Status_e ICM_20948::intEnableDMP(bool)	24	static
+ICM_20948.cpp:603:20:ICM_20948_Status_e ICM_20948::intEnablePLL(bool)	24	static
+ICM_20948.cpp:625:20:ICM_20948_Status_e ICM_20948::intEnableWOM(bool)	24	static
+ICM_20948.cpp:647:20:ICM_20948_Status_e ICM_20948::intEnableWOF(bool)	24	static
+ICM_20948.cpp:669:20:ICM_20948_Status_e ICM_20948::intEnableRawDataReady(bool)	24	static
+ICM_20948.cpp:691:20:ICM_20948_Status_e ICM_20948::intEnableOverflowFIFO(uint8_t)	24	static
+ICM_20948.cpp:712:20:ICM_20948_Status_e ICM_20948::intEnableWatermarkFIFO(uint8_t)	24	static
+ICM_20948.cpp:733:20:ICM_20948_Status_e ICM_20948::WOMThreshold(uint8_t)	24	static
+ICM_20948.cpp:756:20:ICM_20948_Status_e ICM_20948::i2cMasterPassthrough(bool)	16	static
+ICM_20948.cpp:762:20:ICM_20948_Status_e ICM_20948::i2cMasterEnable(bool)	16	static
+ICM_20948.cpp:768:20:ICM_20948_Status_e ICM_20948::i2cMasterReset()	16	static
+ICM_20948.cpp:774:20:ICM_20948_Status_e ICM_20948::i2cControllerConfigurePeripheral(uint8_t, uint8_t, uint8_t, uint8_t, bool, bool, bool, bool, bool, uint8_t)	56	static
+ICM_20948.cpp:782:20:ICM_20948_Status_e ICM_20948::i2cMasterConfigureSlave(uint8_t, uint8_t, uint8_t, uint8_t, bool, bool, bool, bool, bool)	48	static
+ICM_20948.cpp:787:20:ICM_20948_Status_e ICM_20948::i2cControllerPeriph4Transaction(uint8_t, uint8_t, uint8_t*, uint8_t, bool, bool)	40	static
+ICM_20948.cpp:795:20:ICM_20948_Status_e ICM_20948::i2cMasterSLV4Transaction(uint8_t, uint8_t, uint8_t*, uint8_t, bool, bool)	40	static
+ICM_20948.cpp:800:20:ICM_20948_Status_e ICM_20948::i2cMasterSingleW(uint8_t, uint8_t, uint8_t)	16	static
+ICM_20948.cpp:805:9:uint8_t ICM_20948::i2cMasterSingleR(uint8_t, uint8_t)	24	static
+ICM_20948.cpp:818:20:ICM_20948_Status_e ICM_20948::startupDefault(bool)	24	static
+ICM_20948.cpp:939:20:ICM_20948_Status_e ICM_20948::read(uint8_t, uint8_t*, uint32_t)	24	static
+ICM_20948.cpp:945:20:ICM_20948_Status_e ICM_20948::write(uint8_t, uint8_t*, uint32_t)	24	static
+ICM_20948.cpp:951:9:uint8_t ICM_20948::readMag(AK09916_Reg_Addr_e)	24	static
+ICM_20948.cpp:957:20:ICM_20948_Status_e ICM_20948::writeMag(AK09916_Reg_Addr_e, uint8_t*)	24	static
+ICM_20948.cpp:963:20:ICM_20948_Status_e ICM_20948::resetMag()	24	static
+ICM_20948.cpp:976:20:ICM_20948_Status_e ICM_20948::enableFIFO(bool)	16	static
+ICM_20948.cpp:982:20:ICM_20948_Status_e ICM_20948::resetFIFO()	16	static
+ICM_20948.cpp:988:20:ICM_20948_Status_e ICM_20948::setFIFOmode(bool)	16	static
+ICM_20948.cpp:995:20:ICM_20948_Status_e ICM_20948::getFIFOcount(uint16_t*)	16	static
+ICM_20948.cpp:1001:20:ICM_20948_Status_e ICM_20948::readFIFO(uint8_t*, uint8_t)	24	static
+ICM_20948.cpp:1009:20:ICM_20948_Status_e ICM_20948::enableDMP(bool)	16	static
+ICM_20948.cpp:1019:20:ICM_20948_Status_e ICM_20948::resetDMP()	16	static
+ICM_20948.cpp:1025:20:ICM_20948_Status_e ICM_20948::loadDMPFirmware()	16	static
+ICM_20948.cpp:1035:20:ICM_20948_Status_e ICM_20948::setDMPstartAddress(short unsigned int)	16	static
+ICM_20948.cpp:1045:20:ICM_20948_Status_e ICM_20948::enableDMPSensor(inv_icm20948_sensor, bool)	16	static
+ICM_20948.cpp:1066:20:ICM_20948_Status_e ICM_20948::enableDMPSensorInt(inv_icm20948_sensor, bool)	16	static
+ICM_20948.cpp:1083:20:ICM_20948_Status_e ICM_20948::writeDMPmems(short unsigned int, unsigned int, const unsigned char*)	24	static
+ICM_20948.cpp:1093:20:ICM_20948_Status_e ICM_20948::readDMPmems(short unsigned int, unsigned int, unsigned char*)	24	static
+ICM_20948.cpp:1103:20:ICM_20948_Status_e ICM_20948::setDMPODRrate(DMP_ODR_Registers, int)	24	static
+ICM_20948.cpp:1118:20:ICM_20948_Status_e ICM_20948::readDMPdataFromFIFO(icm_20948_DMP_data_t*)	16	static
+ICM_20948.cpp:1128:20:ICM_20948_Status_e ICM_20948::setGyroSF(unsigned char, int)	24	static
+ICM_20948.cpp:1146:20:ICM_20948_Status_e ICM_20948::initializeDMP()	120	static
+ICM_20948.cpp:1396:1:ICM_20948_I2C::ICM_20948_I2C()	16	static
+ICM_20948.cpp:1400:20:virtual ICM_20948_Status_e ICM_20948_I2C::begin()	16	static
+ICM_20948.cpp:1463:20:ICM_20948_Status_e ICM_20948::startupMagnetometer(bool)	56	static
+ICM_20948.cpp:1541:20:ICM_20948_Status_e ICM_20948::magWhoIAm()	24	static
+ICM_20948.cpp:1662:20:ICM_20948_Status_e ICM_20948_write_I2C(uint8_t, uint8_t*, uint32_t, void*)	32	static
+ICM_20948.cpp:1695:20:ICM_20948_Status_e ICM_20948_read_I2C(uint8_t, uint8_t*, uint32_t, void*)	32	static
